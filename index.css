@@ -1,0 +1,56 @@
+body {
+  background-color: #111725;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 400px 100px;
+  grid-template-rows: 350px;
+}
+
+h1 {
+  color: #FEFEFE;
+}
+
+.first-section {
+  color: #66DDB1;
+}
+
+.second-section {
+  color: #D5D6D8;
+}
+
+.text-main {
+  color: #797D89;
+}
+
+.input-container {
+  background-color: #2C344B;
+}
+
+.email {
+  color: #797D89;
+  background-color: #2C344B;
+  margin-left: 2em;
+  outline: none;
+  border:none;
+  /* height:100%;
+  width:100%; */
+}
+
+.submit{
+  transition: background .24s ease;
+  cursor: pointer;
+  border-radius: 24px;
+  height:100%;
+  /* width:320px; */
+  background-color: #52E6AF;
+  border:none;
+  outline: none;
+  font-weight: bold;
+}
+
+a {
+  color: #797D89;
+  text-decoration: none;
+}
